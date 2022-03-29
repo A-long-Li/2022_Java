@@ -1,0 +1,37 @@
+package experiment.four.com.mybank.domain;
+//能够透支的账户
+public class CheckingAccount extends Account{
+    double overdraftAmount;
+
+    CheckingAccount(double initBalance,double overdraftAmount){
+        this.balance = initBalance;
+        this.overdraftAmount = overdraftAmount;
+    }
+    CheckingAccount(double initBalance){
+        this.balance = initBalance;
+        this.overdraftAmount = 0.0;
+    }
+
+    public double getOverdraftAmount() {
+        return overdraftAmount;
+    }
+
+    @Override
+    public boolean withdraw(double amount) {
+        if(balance < amount){
+            //使用贷款
+            double overdraftNeeded = amount - balance;
+            if(overdraftNeeded > overdraftAmount){
+                return false;
+            }
+            else{
+                balance = 0.0;
+                overdraftAmount -= overdraftNeeded;
+            }
+        } // 能够付清
+        else{
+            balance -= amount;
+        }
+        return true;
+    }
+}
