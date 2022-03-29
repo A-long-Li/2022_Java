@@ -14,6 +14,8 @@ Java课程的实验和一些测试的代码
         + fib
         + Kaprekar
         + Narcissistic_num
+  + source
+        + 实验报告成品（非常简陋）
   + 初学者技术不佳，有任何疑问或错误欢迎留言交流！
 
   
