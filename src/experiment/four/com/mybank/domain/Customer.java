@@ -29,8 +29,8 @@ public class Customer {
             return accounts[id];
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e);
+            return null;
         }
-        return  null;
     }
     public int getNumbersOfAccounts() {
         return numbersOfAccounts;

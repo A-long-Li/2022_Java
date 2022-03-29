@@ -13,10 +13,10 @@ public class Account {
         return true;
     }
     //取钱
-    public boolean withdraw(double amt){
-        if(balance < amt) return false;
+    public int withdraw(double amt){
+        if(balance < amt) return 0;
         balance -= amt;
-        return true;
+        return 1;
     }
 
     //获取余额

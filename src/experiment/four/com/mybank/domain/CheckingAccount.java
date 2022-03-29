@@ -3,7 +3,7 @@ package experiment.four.com.mybank.domain;
 public class CheckingAccount extends Account{
     double overdraftAmount;
 
-    CheckingAccount(double initBalance,double overdraftAmount){
+    public CheckingAccount(double initBalance, double overdraftAmount){
         this.balance = initBalance;
         this.overdraftAmount = overdraftAmount;
     }
@@ -17,21 +17,22 @@ public class CheckingAccount extends Account{
     }
 
     @Override
-    public boolean withdraw(double amount) {
+    public int withdraw(double amount) {
         if(balance < amount){
             //使用贷款
             double overdraftNeeded = amount - balance;
             if(overdraftNeeded > overdraftAmount){
-                return false;
+                return 1;
             }
             else{
                 balance = 0.0;
                 overdraftAmount -= overdraftNeeded;
+                return 2;
             }
         } // 能够付清
         else{
             balance -= amount;
         }
-        return true;
+        return 3;
     }
 }
