@@ -4,11 +4,11 @@ public class CheckingAccount extends Account{
     double overdraftAmount;
 
     public CheckingAccount(double initBalance, double overdraftAmount){
-        this.balance = initBalance;
+        super(initBalance);
         this.overdraftAmount = overdraftAmount;
     }
     CheckingAccount(double initBalance){
-        this.balance = initBalance;
+        super(initBalance);
         this.overdraftAmount = 0.0;
     }
 

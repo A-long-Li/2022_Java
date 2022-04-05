@@ -10,6 +10,7 @@ public class TestBanking {
         for(int i = 0; i < 10; i++){
             Random ra = new Random();
             Bank.addCustomer(Integer.toString(i), "Jinx");
+            
             for(int j = 0;j < 10; j++){
                 Bank.getCustomer(i).addAccount(ra.nextDouble(1145.14));
                 Bank.getCustomer(i).getAccount(j).withdraw(ra.nextDouble(1145.14));

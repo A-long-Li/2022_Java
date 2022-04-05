@@ -2,6 +2,11 @@ package experiment.four.com.mybank.domain;
 
 public class Account {
     protected double balance;
+
+    public Account(double initBalance) {
+        this.balance = initBalance;
+    }
+
     //初始化余额
     public void initBalance(double balance) {
         this.balance = balance;

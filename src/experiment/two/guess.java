@@ -3,6 +3,7 @@ package experiment.two;
 import java.util.Random;
 import java.util.Scanner;
 
+
 public class guess {
     public void guess(){
         Random ra = new Random();
@@ -17,4 +18,5 @@ public class guess {
         }
         System.out.println("congratulations");
     }
+
 }

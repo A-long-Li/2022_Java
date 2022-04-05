@@ -3,13 +3,13 @@ package experiment.four.com.mybank.domain;
 public class SavingsAccount extends Account{
     private double interestRate;
     public SavingsAccount(double initBalance,double interestRate){
-        this.balance = initBalance;
+        super(initBalance);
         this.interestRate = interestRate;
     }
 
 
     //计算利息
     public double accumulateInterest(){
-        return balance + interestRate;
+        return balance + balance * interestRate;
     }
 }
