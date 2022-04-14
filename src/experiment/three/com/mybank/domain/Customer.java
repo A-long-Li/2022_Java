@@ -13,7 +13,6 @@ public class Customer {
         accounts = new Account[10];
     }
     public void addAccount(double amount){
-
            addAccount(new Account(amount));
     }
     public void addAccount(Account acc){
