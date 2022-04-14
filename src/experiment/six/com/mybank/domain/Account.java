@@ -6,11 +6,6 @@ public class Account {
     public Account(double initBalance) {
         this.balance = initBalance;
     }
-
-    //初始化余额
-    public void initBalance(double balance) {
-        this.balance = balance;
-    }
     //存钱
     public void deposit(double amt){
         balance += amt;

@@ -3,7 +3,7 @@ package experiment.three.com.mybank.domain;
 public class Account {
     protected double balance;
     //初始化余额
-    public void initBalance(double balance) {
+    public Account(double balance){
         this.balance = balance;
     }
     //存钱

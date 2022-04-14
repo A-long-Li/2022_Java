@@ -7,10 +7,6 @@ public class Account {
         this.balance = initBalance;
     }
 
-    //初始化余额
-    public void initBalance(double balance) {
-        this.balance = balance;
-    }
     //存钱
     public boolean deposit(double amt){
         if(amt < 0) return false;
