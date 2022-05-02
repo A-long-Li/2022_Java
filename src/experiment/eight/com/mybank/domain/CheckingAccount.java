@@ -1,4 +1,4 @@
-package experiment.six.com.mybank.domain;
+package experiment.eight.com.mybank.domain;
 
 //能够透支的账户
 public class CheckingAccount extends Account {

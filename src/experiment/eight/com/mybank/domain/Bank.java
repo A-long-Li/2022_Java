@@ -1,4 +1,4 @@
-package experiment.six.com.mybank.domain;
+package experiment.eight.com.mybank.domain;
 
 import java.util.ArrayList;
 import java.util.List;
