@@ -1,4 +1,4 @@
-package pg_test.pg_work;
+package pg_test.work_1;
 
 import java.util.Arrays;
 import java.util.Scanner;

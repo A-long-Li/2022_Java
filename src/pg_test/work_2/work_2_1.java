@@ -6,7 +6,7 @@ import static java.lang.Thread.sleep;
  * @author liyajun
  * @date 2022/5/9 14:51
  */
-public class printName {
+public class work_2_1 {
     public static void main(String[] args) {
         print();
 

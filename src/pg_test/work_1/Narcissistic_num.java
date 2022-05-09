@@ -1,4 +1,4 @@
-package pg_test.pg_work;
+package pg_test.work_1;
 
 public class Narcissistic_num {
     static boolean check(int x)
