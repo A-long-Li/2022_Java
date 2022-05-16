@@ -24,3 +24,4 @@ Java课程的实验和一些测试的代码
   ![img.png](img.png)
   
   [![wakatime](https://wakatime.com/badge/github/nowamoreac/2022_Java.svg)](https://wakatime.com/badge/github/nowamoreac/2022_Java)
+  <figure><embed src="https://wakatime.com/share/@juanxincai/86058a9b-385d-451b-825b-37537b549444.svg"></embed></figure>
