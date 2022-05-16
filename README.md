@@ -22,3 +22,5 @@ Java课程的实验和一些测试的代码
   + 初学者技术不佳，有任何疑问或错误欢迎留言交流！
 
   ![img.png](img.png)
+  
+  [![wakatime](https://wakatime.com/badge/github/nowamoreac/2022_Java.svg)](https://wakatime.com/badge/github/nowamoreac/2022_Java)
