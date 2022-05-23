@@ -27,8 +27,8 @@ public class DataSource {
                 // cus account count
                 int count_cus_acc = sc.nextInt();
                 for (int j = 0; j < count_cus_acc; j++) {
-                    char accType = sc.next().charAt(0);
-                    if(accType == 'S'){
+                    String accType = sc.next();
+                    if(accType.startsWith("S")){
                         double initBalance = sc.nextDouble();
                         double growRate = sc.nextDouble();
                         cus_cur.addAccount(new SavingsAccount(initBalance,growRate));

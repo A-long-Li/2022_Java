@@ -20,7 +20,8 @@ public class CustomerReport {
             pt.println("_______________________ split line _________________________");
             for(int i = 0;i < Bank.getNumbersOfCustomers(); i++){
                 Customer customer = Bank.getCustomer(i);
-                pt.println(customer);
+                pt.println(customer.toString() +" numbers of account "+ customer.getNumbersOfAccounts());
+
             }
             pt.println("_______________________ split line _________________________");
         } catch (IOException e) {
