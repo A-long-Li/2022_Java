@@ -15,12 +15,14 @@ public class work_2_3 {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        FileReader f = new FileReader("your project");
+        FileReader f = new FileReader("{your project}");
         BufferedReader bf=  new BufferedReader(f);
         int cnt = 1;
         while(bf.ready()){
-            op.writeBytes(cnt++ + bf.readLine() + "\t\n");
-            System.out.println(cnt + bf.readLine());
+            String s =  bf.readLine();
+            System.out.println(cnt + s);
+            op.writeBytes(cnt + s + "\t\n");
+            cnt++;
         }
     }
 }
