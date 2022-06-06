@@ -19,6 +19,7 @@ public class work_2_3 {
         BufferedReader bf=  new BufferedReader(f);
         int cnt = 1;
         while(bf.ready()){
+            //read
             String s =  bf.readLine();
             System.out.println(cnt + s);
             op.writeBytes(cnt + s + "\t\n");
