@@ -1,5 +1,5 @@
 [![wakatime](https://wakatime.com/badge/github/A-long-Li/2022_Java.svg)](https://wakatime.com/badge/github/A-long-Li/2022_Java)
-# 2022_Java
+# 仅供参考！！
 Java课程的实验和一些测试的代码
 # 项目结构
   + experiment(实验代码) -> 按照顺序 
